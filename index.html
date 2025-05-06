@@ -16,15 +16,17 @@
 
 <body>
     <header>
-        <h1>Animal Adoption Service</h1>
-        <nav class="nav-buttons">
-            <button id="home">Home</button>
-            <button id="about_us">About Us</button>
-            <button id="features">Features</button>
-            <button id="animals">Animals</button>
-            <button id="prices">Prices</button>
-            <button id="adopt-random-animal">Adopt Random Animal</button>
-        </nav>
+        <div class="header-class">
+            <h1>Animal Adoption Service</h1>
+            <nav>
+                <a href="home" class="nav-buttons">Home</a>
+                <a href="about_us" class="nav-buttons">About Us</a>
+                <a href="features" class="nav-buttons">Features</a>
+                <a href="animals" class="nav-buttons">Animals</a>
+                <a href="prices" class="nav-buttons">Prices</a>
+                <a href="adopt-random-animal" class="nav-buttons">Adopt Random Animal</a>
+            </nav>
+        </div>
     </header>
     <main>
         <section id="home" class="home">
@@ -32,12 +34,12 @@
                 <div>#1 Editors Choice App of 2020</div>
                 <h1>Look how cute I am</h1>
                 <p>please adopt me!</p>
-                <button id="adopt-random-animal">Adopt Random Animal</button>
+                <a href="adopt-random-animal" class="box-button">Adopt Random Animal</a>
             </div>
             <div class="right-box">
                 <h2>Definitely some cute Animals</h2>
                 <p>Here are all animals they are free for adoption.</p>
-                <button id="animals">Continue</button>
+                <a href="animals" class="box-button">Continue</a>
             </div>
         </section>
         <section id="happy-petowners" class="happy-petowners">
@@ -89,7 +91,7 @@
 
         <section id="animals" class="animals">
             <h2>Meet Our Animals</h2>
-            <div class="animal-gallery">  
+            <div class="animal-gallery">
                 <div class="animal">
                     <img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg" alt="Cute dog"
                         width="300">
@@ -130,8 +132,8 @@
                         alt="cat treats lover" width="300">
                     <p>Monika, the Cat who loves treats</p>
                 </div>
-                </div>
-                </div>
+            </div>
+            </div>
         </section>
 
         <section id="prices" class="prices">

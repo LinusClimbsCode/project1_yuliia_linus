@@ -23,58 +23,65 @@ body {
 }
 
 header {
+    background-image: url("/pictures/background-blue.png");
+}
+
+.header-class {
     background-color: var(--primary-color);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem;
-    padding: 1rem;
     border-radius: 70px;
 }
 
-.nav-buttons button {
-    margin: 0.1rem;
+.header-class h1 {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.nav-buttons {
     padding: 0.1rem;
-    background-color: var(--background-color);
-    border: none;
+    color: var(--background-color);
+    text-decoration: none;
+    border: solid;
     border-radius: 10px;
-    cursor: pointer;
 }
 
 .home {
     background-image: url("/pictures/background.jpg");
-    background-size: cover;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
 
     display: flex;
     justify-content: space-around;
-    padding: 3rem 2rem;
+    
 }
 
 .left-box {
-    background-color: var(--secondary-color);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 2rem;
+    margin: 2rem;
     border-radius: 10px;
 }
 
 .right-box {
-    background-color: var(--secondary-color);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 2rem;
+    margin: 2rem;
     border-radius: 10px;
 }
 
-.left-box h1 {
-    margin-top: 0;
-}
 
-.left-box button,
-.right-box button {
+.box-button {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     border: none;
-    background-color: var(--background-color);
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-decoration: none;
     cursor: pointer;
 }
 
