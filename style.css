@@ -353,3 +353,39 @@ footer ul li a:hover {
 .right-box button:hover {
   background-color: #45a049;
 }
+
+/* Why choose us */
+.why-choose-us {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.headline {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.logos-grid {
+  display: flex;
+  justify-content: center; /* Centers all items horizontally */
+  align-items: center; /* Aligns items vertically */
+  gap: 1.5rem; /* Adds spacing between logos */
+}
+
+.logo-item {
+  text-align: center;
+}
+
+.rounded-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Makes the logos circular */
+  object-fit: cover;
+}
